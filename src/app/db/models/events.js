@@ -17,14 +17,14 @@ export default (sequelize, DataTypes) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    players: {
+    athletes: {
       type: DataTypes.ARRAY(DataTypes.TEXT),
       allowNull: false,
     },
     state: {
       type: DataTypes.STRING,
       allowNull: false,
-      default: 'AWAITING', // AWAITING, IN_PROGRESS, ENDED, CANCELLED, DELAYED
+      default: 'AWAITING', // AWAITING, STARTED, ENDED, CANCELLED, DELAYED
     },
   });
 
