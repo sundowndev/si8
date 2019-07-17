@@ -21,34 +21,9 @@ services:
       POSTGRES_DB: si8
     ports:
       - 5432:5432
-    volumes:
-      - db_data:/var/lib/postgresql/data
     networks:
       - default
       - postgres
 
-  # api:
-  #   container_name: th_api
-  #   restart: on-failure
-  #   image: node:8
-  #   build:
-  #     context: .
-  #     dockerfile: ./Dockerfile
-  #   env_file:
-  #     - .env
-  #   environment:
-  #     - NODE_ENV=production
-  #   ports:
-  #     - '3000:3000'
-  #   networks:
-  #     - default
-  #     - postgres
-  #   command: ['node', '/api/build/server.js']
-
-volumes:
-  db_data:
-
 networks:
-  # web:
-  #   external: true
   postgres: {}

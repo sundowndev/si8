@@ -2,9 +2,7 @@ FROM node:8
 
 WORKDIR /api
 
-COPY ./package-lock.json .
-COPY ./package.json .
-COPY ./src ./
+COPY . .
 
 # RUN apt-get update && apt-get -y install build-essential
 
