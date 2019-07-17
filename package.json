@@ -8,7 +8,7 @@
     "build": "cross-env NODE_ENV=production webpack --config ./webpack.config.js",
     "build:dev": "cross-env NODE_ENV=development webpack --config ./webpack.config.js",
     "test": "cross-env NODE_ENV=test jest ./test --config ./test/jest.config.js --coverage --useStderr --forceExit --detectOpenHandles",
-    "docs": "apidoc -i ./src/app/routes -o ./docs/api -f '.*\\.js$'"
+    "docs": "apidoc -i ./src/app/routes -o ./docs -f '.*\\.js$'"
   },
   "jest": {
     "moduleNameMapper": {
