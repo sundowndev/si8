@@ -1,0 +1,54 @@
+version: '3'
+
+services:
+  adminer:
+    container_name: si8_adminer
+    image: adminer:latest
+    restart: on-failure
+    ports:
+      - 8080:8080
+    networks:
+      - default
+      - postgres
+
+  db:
+    container_name: si8_db
+    image: postgres
+    restart: on-failure
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: si8
+    ports:
+      - 5432:5432
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - default
+      - postgres
+
+  # api:
+  #   container_name: th_api
+  #   restart: on-failure
+  #   image: node:8
+  #   build:
+  #     context: .
+  #     dockerfile: ./Dockerfile
+  #   env_file:
+  #     - .env
+  #   environment:
+  #     - NODE_ENV=production
+  #   ports:
+  #     - '3000:3000'
+  #   networks:
+  #     - default
+  #     - postgres
+  #   command: ['node', '/api/build/server.js']
+
+volumes:
+  db_data:
+
+networks:
+  # web:
+  #   external: true
+  postgres: {}

@@ -1,0 +1,6 @@
+*.test.js
+*.spec.js
+*.schema.js
+*.tmpl.js
+*.fixture.js
+build

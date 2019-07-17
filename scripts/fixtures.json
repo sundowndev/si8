@@ -1,0 +1,24 @@
+{
+  "sports": [{ "id": "1", "name": "Athletisme" }],
+  "disciplines": [
+    {
+      "id": "1",
+      "name": "10000m hommes",
+      "start_date": "1",
+      "end_date": "1",
+      "sport": "1"
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "name": "10000m hommes",
+      "date": "1",
+      "start_hour": "1",
+      "end_hour": "1",
+      "players": ["test", "test2"],
+      "state": "AWAITING",
+      "discipline": "1"
+    }
+  ]
+}
