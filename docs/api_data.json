@@ -1,0 +1,246 @@
+[
+  {
+    "type": "get",
+    "url": "/sport/:sportId/disciplines/:disciplineId",
+    "title": "Fetch one discipline of a sport",
+    "name": "GetOneSportDiscipline",
+    "group": "Disciplines",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Integer",
+            "optional": false,
+            "field": "sportId",
+            "description": "<p>Sport id</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Integer",
+            "optional": false,
+            "field": "disciplineId",
+            "description": "<p>Sport's discipline id</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "success",
+            "description": "<p>Request status</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Object",
+            "optional": false,
+            "field": "item",
+            "description": "<p>Discipline.</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "src/app/routes/sports.js",
+    "groupTitle": "Disciplines"
+  },
+  {
+    "type": "get",
+    "url": "/sport/:id/disciplines",
+    "title": "Fetch disciplines of a sport",
+    "name": "GetSportDisciplines",
+    "group": "Disciplines",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Integer",
+            "optional": false,
+            "field": "id",
+            "description": "<p>Sport id</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "success",
+            "description": "<p>Request status</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Object",
+            "optional": false,
+            "field": "items",
+            "description": "<p>Disciplines of a sport.</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "src/app/routes/sports.js",
+    "groupTitle": "Disciplines"
+  },
+  {
+    "type": "get",
+    "url": "/sport/:sportId/disciplines/:disciplineId/events",
+    "title": "Fetch events of a discipline",
+    "name": "GetDisciplineEvents",
+    "group": "Events",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Integer",
+            "optional": false,
+            "field": "sportId",
+            "description": "<p>Sport id</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "Integer",
+            "optional": false,
+            "field": "disciplineId",
+            "description": "<p>Sport's discipline id</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "success",
+            "description": "<p>Request status</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Object",
+            "optional": false,
+            "field": "item",
+            "description": "<p>Discipline.</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "src/app/routes/sports.js",
+    "groupTitle": "Events"
+  },
+  {
+    "type": "get",
+    "url": "/sports",
+    "title": "Fetch all sports",
+    "name": "GetSports",
+    "group": "Sports",
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "success",
+            "description": "<p>Request status</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Integer",
+            "optional": false,
+            "field": "limit",
+            "description": "<p>Lastname of the User.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Integer",
+            "optional": false,
+            "field": "page",
+            "description": "<p>Current page.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Integer",
+            "optional": false,
+            "field": "offset",
+            "description": "<p>Offset of the request.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Integer",
+            "optional": false,
+            "field": "results",
+            "description": "<p>Number of results.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Array",
+            "optional": false,
+            "field": "items",
+            "description": "<p>Sports.</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "src/app/routes/sports.js",
+    "groupTitle": "Sports"
+  },
+  {
+    "type": "get",
+    "url": "/sports/:id",
+    "title": "Fetch one sport",
+    "name": "GetSports",
+    "group": "Sports",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Integer",
+            "optional": false,
+            "field": "id",
+            "description": "<p>Sport id</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Boolean",
+            "optional": false,
+            "field": "success",
+            "description": "<p>Request status</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Object",
+            "optional": false,
+            "field": "item",
+            "description": "<p>Sport.</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "src/app/routes/sports.js",
+    "groupTitle": "Sports"
+  }
+]
