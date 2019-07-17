@@ -15,7 +15,6 @@ import models from '@/db/models';
 
 // Routes
 import sports from '@/routes/sports';
-import events from '@/routes/events';
 
 // ---------- GLOBALS ----------
 const app = express();
@@ -42,7 +41,6 @@ app.use(logger('[:method] :url :status - :response-time ms'));
 
 // ROUTES
 app.use('/sports', sports);
-app.use('/events', events);
 
 // ---------- RESPONSE ----------
 // SUCCESS
