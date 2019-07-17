@@ -2,6 +2,7 @@ FROM node:8
 
 WORKDIR /api
 
+COPY ./support/.env.example ./.env
 COPY . .
 
 # RUN apt-get update && apt-get -y install build-essential
