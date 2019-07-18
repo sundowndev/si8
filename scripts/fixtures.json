@@ -42,21 +42,21 @@
     },
     {
       "id": "3",
-      "name": "110m haies hommes",
+      "name": "110 mètres haies hommes",
       "start_date": "2019-07-17",
       "end_date": "2019-07-22",
       "sport": "1"
     },
     {
       "id": "4",
-      "name": "1500m hommes",
+      "name": "1500 mètres hommes",
       "start_date": "2019-07-17",
       "end_date": "2019-07-22",
       "sport": "1"
     },
     {
       "id": "5",
-      "name": "200m hommes",
+      "name": "200 mètres hommes",
       "start_date": "2019-07-17",
       "end_date": "2019-07-22",
       "sport": "1"
@@ -70,35 +70,35 @@
     },
     {
       "id": "7",
-      "name": "3000m steeple hommes",
+      "name": "3000 mètres steeple hommes",
       "start_date": "2019-07-17",
       "end_date": "2019-07-22",
       "sport": "1"
     },
     {
       "id": "8",
-      "name": "400m haies hommes",
+      "name": "400 mètres haies hommes",
       "start_date": "2019-07-17",
       "end_date": "2019-07-22",
       "sport": "1"
     },
     {
       "id": "9",
-      "name": "800m hommes",
+      "name": "800 mètres hommes",
       "start_date": "2019-07-17",
       "end_date": "2019-07-22",
       "sport": "1"
     },
     {
       "id": "10",
-      "name": "400m hommes",
+      "name": "400 mètres hommes",
       "start_date": "2019-07-17",
       "end_date": "2019-07-22",
       "sport": "1"
     },
     {
       "id": "11",
-      "name": "5000m hommes",
+      "name": "5000 mètres hommes",
       "start_date": "2019-07-17",
       "end_date": "2019-07-22",
       "sport": "1"
