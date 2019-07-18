@@ -1,27 +1,129 @@
 {
-  "sports": [{ "id": "1", "name": "Athletisme" }],
+  "sports": [
+    { "id": "1", "name": "Athletisme" },
+    { "id": "2", "name": "Aviron" },
+    { "id": "3", "name": "Badminton" },
+    { "id": "4", "name": "Basketball" },
+    { "id": "5", "name": "Boxe" },
+    { "id": "6", "name": "Canoë slalom" },
+    { "id": "7", "name": "Canoë sprint" },
+    { "id": "8", "name": "Cyclisme sur piste" },
+    { "id": "9", "name": "Cyclisme sur route" },
+    { "id": "10", "name": "Escrime" },
+    { "id": "11", "name": "Football" },
+    { "id": "12", "name": "Golf" },
+    { "id": "13", "name": "Gymnastique artistique" },
+    { "id": "14", "name": "Gymnastique rythmique" },
+    { "id": "15", "name": "Haltérophilie" },
+    { "id": "16", "name": "Handball" },
+    { "id": "17", "name": "Hockey" },
+    { "id": "18", "name": "Judo" },
+    { "id": "19", "name": "Lutte gréco-romaine" },
+    { "id": "20", "name": "Lutte libre" },
+    { "id": "21", "name": "Natation" },
+    { "id": "22", "name": "Natation artistique" },
+    { "id": "23", "name": "Natation de marathon" },
+    { "id": "24", "name": "Pentathlon moderne" }
+  ],
   "disciplines": [
     {
       "id": "1",
-      "name": "10000m hommes",
-      "start_date": "2019-07-17T12:00:00.000Z",
-      "end_date": "2019-07-22T17:00:00.000Z",
+      "name": "100 mètres hommes",
+      "start_date": "2019-07-19",
+      "end_date": "2019-07-24",
       "sport": "1"
     },
     {
       "id": "2",
-      "name": "100m hommes",
-      "start_date": "2019-07-19T12:00:00.000Z",
-      "end_date": "2019-07-24T17:00:00.000Z",
+      "name": "10000 mètres hommes",
+      "start_date": "2019-07-17",
+      "end_date": "2019-07-22",
+      "sport": "1"
+    },
+    {
+      "id": "3",
+      "name": "110m haies hommes",
+      "start_date": "2019-07-17",
+      "end_date": "2019-07-22",
+      "sport": "1"
+    },
+    {
+      "id": "4",
+      "name": "1500m hommes",
+      "start_date": "2019-07-17",
+      "end_date": "2019-07-22",
+      "sport": "1"
+    },
+    {
+      "id": "5",
+      "name": "200m hommes",
+      "start_date": "2019-07-17",
+      "end_date": "2019-07-22",
+      "sport": "1"
+    },
+    {
+      "id": "6",
+      "name": "20km marche sur route hommes",
+      "start_date": "2019-07-17",
+      "end_date": "2019-07-22",
+      "sport": "1"
+    },
+    {
+      "id": "7",
+      "name": "3000m steeple hommes",
+      "start_date": "2019-07-17",
+      "end_date": "2019-07-22",
+      "sport": "1"
+    },
+    {
+      "id": "8",
+      "name": "400m haies hommes",
+      "start_date": "2019-07-17",
+      "end_date": "2019-07-22",
+      "sport": "1"
+    },
+    {
+      "id": "9",
+      "name": "",
+      "start_date": "2019-07-17",
+      "end_date": "2019-07-22",
+      "sport": "1"
+    },
+    {
+      "id": "10",
+      "name": "400m hommes",
+      "start_date": "2019-07-17",
+      "end_date": "2019-07-22",
+      "sport": "1"
+    },
+    {
+      "id": "11",
+      "name": "5000m hommes",
+      "start_date": "2019-07-17",
+      "end_date": "2019-07-22",
+      "sport": "1"
+    },
+    {
+      "id": "12",
+      "name": "50km marche sur route hommes",
+      "start_date": "2019-07-17",
+      "end_date": "2019-07-22",
+      "sport": "1"
+    },
+    {
+      "id": "13",
+      "name": "800m hommes ",
+      "start_date": "2019-07-17",
+      "end_date": "2019-07-22",
       "sport": "1"
     }
   ],
   "events": [
     {
       "name": "Demi finale",
-      "date": "2019-07-17T13:30:00.000Z",
-      "start_hour": "1",
-      "end_hour": "1",
+      "date": "2019-07-17",
+      "start_hour": "2019-07-17T14:00:00.000Z",
+      "end_hour": "2019-07-17T17:00:00.000Z",
       "athletes": [
         "Kenenisa BEKELE",
         "Haile GEBRSELASSIE",
@@ -35,9 +137,9 @@
     },
     {
       "name": "Grande finale",
-      "date": "2019-07-18T16:00:00.000Z",
-      "start_hour": "1",
-      "end_hour": "1",
+      "date": "2019-07-18",
+      "start_hour": "2019-07-18T14:00:00.000Z",
+      "end_hour": "2019-07-18T17:00:00.000Z",
       "athletes": [
         "Kenenisa BEKELE",
         "Haile GEBRSELASSIE",
