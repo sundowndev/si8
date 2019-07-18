@@ -16,7 +16,7 @@ export default function(req, res, next) {
       }
 
       if (req.return) {
-        json.items = req.return;
+        json.items = Array.isArray(req.return) ? req.return : [req.return];
       }
 
       res.status(req.status || 200);
