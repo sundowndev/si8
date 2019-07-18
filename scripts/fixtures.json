@@ -84,7 +84,7 @@
     },
     {
       "id": "9",
-      "name": "",
+      "name": "800m hommes",
       "start_date": "2019-07-17",
       "end_date": "2019-07-22",
       "sport": "1"
@@ -106,13 +106,6 @@
     {
       "id": "12",
       "name": "50km marche sur route hommes",
-      "start_date": "2019-07-17",
-      "end_date": "2019-07-22",
-      "sport": "1"
-    },
-    {
-      "id": "13",
-      "name": "800m hommes ",
       "start_date": "2019-07-17",
       "end_date": "2019-07-22",
       "sport": "1"
